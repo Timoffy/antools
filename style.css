@@ -1,0 +1,876 @@
+/* ==========================================organization======================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #1E252B;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --btn-color: #458FF6;
+    --main-color: #7D7987;
+    --second-color: #1F1534;
+    --white-color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1250px;
+}
+
+/* ==========================================header======================================== */
+.headersec1 {
+    margin-left: 70px;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.headersec1 .hsec1 {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: Poppins;
+}
+
+.headersec2 {
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    gap: 50px;
+    margin-top: -15px;
+    margin-left: 18%;
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+.headersec2 a {
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.batons {
+    justify-content: right;
+    margin-right: 50px;
+    gap: 50px;
+    margin-top: -25px;
+    font-family: Poppins;
+}
+
+.baton {
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+.btn {
+    color: rgba(253, 245, 255, 1);
+    font-size: 16px;
+    border-radius: 8px;
+    background: rgba(255, 110, 48, 1);
+    padding: 12px 32px 12px 32px;
+    font-family: Poppins;
+
+}
+
+/* ================================================sec2===================================== */
+.h1h {
+    color: white;
+    font-size: 25px;
+    font-family: Poppins;
+    font-weight: 500;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.tochka {
+    color: #df5e08;
+}
+
+.text1 {
+    font-family: Poppins;
+    color: rgba(255, 255, 255, 0.55);
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.batones {
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.inp {
+    width: 497.66px;
+    height: 64px;
+    border-radius: 15px;
+    /* border: 1.5px; */
+    background: rgba(40, 48, 54, 1);
+
+}
+
+.batones {
+    background: rgba(40, 48, 54, 1);
+    width: 497.66px;
+    height: 64px;
+    border-radius: 15px;
+    border: 1.5px;
+
+}
+
+.sec1 {
+    gap: 10px;
+}
+
+.text {
+    width: 300px;
+    color: #df5e08;
+    display: flex;
+    text-decoration: none;
+    background: rgba(40, 48, 54, 1);
+    border: none;
+    padding-left: 10px;
+}
+
+.batn1 {
+    font-family: Poppins;
+    margin-top: 5%;
+    width: 130px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 110, 48, 1);
+    color: white;
+    padding: 12px 32px 12px 36px;
+    margin-left: 15px;
+
+}
+
+.img1 {
+    margin-left: 5%;
+    width: 25px;
+}
+
+.fotos {
+    width: 190px;
+    height: 58px;
+    margin-top: 35%;
+    margin-left: -100%;
+
+}
+
+.fotos1 {
+    width: 589px;
+    height: 892px;
+    margin-top: -40%;
+    margin-left: 90%;
+
+}
+
+/* ===============================================sec2============================================ */
+.h2h {
+    width: 455px;
+    height: 62px;
+    margin-top: 35%;
+    margin-left: 33%;
+    color: white;
+    font-size: 30px;
+}
+
+.p1p {
+    width: 427px;
+    height: 60px;
+    margin-top: 3%;
+    margin-left: 36%;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.el1 {
+    width: 392px;
+    height: 294px;
+    margin-top: 10%;
+    margin-left: 5%;
+    color: white;
+}
+
+.h4h {
+    margin-left: 5%;
+    font-size: 19px;
+}
+
+.pen {
+    margin-top: 10%;
+    margin-left: -16%;
+    color: rgba(255, 165, 55, 0.55);
+}
+
+.text2 {
+    margin-top: 5%;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 14px;
+}
+
+.helth {
+    margin-left: -2%
+}
+
+.gaps {
+    gap: 30px;
+    margin-top: 10%;
+}
+
+.vis {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.55);
+    margin-left: 35%;
+    margin-top: -10%;
+    display: flex;
+}
+
+.el2 {
+    background-image: url(/img/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-top: 7%;
+    padding: 20px 20px 20px 20px;
+}
+
+.h4h4 {
+    color: white;
+    /* margin-top: 0%; */
+    margin-left: 5%;
+    font-size: 24px;
+}
+
+.pe {
+    margin-top: 13%;
+    margin-left: -26%;
+    color: rgba(255, 165, 55, 1);
+}
+
+.pop {
+    color: rgba(255, 255, 255, 0.78);
+    margin-top: 10%;
+}
+
+.imgs {
+    margin-top: 10%;
+}
+
+.btn33 {
+    margin-top: -12%;
+}
+
+.btnsos {
+    color: white;
+    width: 106px;
+    height: 12px;
+    /* margin-top: 115px; */
+    margin-left: 65%;
+    border-radius: 8px;
+    background: rgba(255, 110, 48, 1);
+    padding: 10px 30px 10px 30px;
+}
+
+
+.el3 {
+    width: 392px;
+    height: 294px;
+    color: white;
+    margin-top: 32%;
+    margin-left: 25%;
+    width: 392px;
+    height: 294px;
+}
+
+.pen1 {
+    margin-top: 14%;
+    margin-left: -62%;
+    color: rgba(255, 165, 55, 0.55);
+}
+
+.vis1 {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.55);
+    margin-left: 40%;
+    margin-top: 10px;
+    display: flex;
+}
+
+.vis4 {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.55);
+    margin-left: 35%;
+    margin-top: 10px;
+    display: flex;
+}
+
+.vis5 {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.55);
+    margin-left: 35%;
+    margin-top: 10px;
+    display: flex;
+}
+
+.vis6 {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.55);
+    margin-left: 35%;
+    margin-top: 8px;
+    display: flex;
+}
+
+.text3 {
+    margin-top: 5%;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 14px;
+}
+
+.el4 {
+    width: 392px;
+    height: 294px;
+    margin-top: 10%;
+    margin-left: 5%;
+    color: white;
+}
+
+.el5 {
+    width: 392px;
+    height: 294px;
+    margin-top: -53.5%;
+    margin-left: 105%;
+    color: white;
+}
+
+.el6 {
+    width: 322px;
+    height: 294px;
+    margin-top: -52%;
+    margin-left: 113%;
+    color: white;
+}
+
+.pen3 {
+    margin-top: 10%;
+    margin-left: -14%;
+    color: rgba(255, 165, 55, 0.55);
+}
+
+.pen4 {
+    margin-top: 14%;
+    margin-left: -24%;
+    color: rgba(255, 165, 55, 0.55);
+}
+
+.vis2 {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.55);
+    margin-left: 15%;
+    margin-top: -12%;
+    display: flex;
+}
+
+.btn1 {
+    margin-left: 45%;
+
+}
+
+.btn2 {
+    color: rgba(255, 110, 48, 1);
+    border-radius: 8px;
+    border: 1px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 30px 15px 30px;
+
+}
+
+/* ========================================================sec3============================================= */
+.sec33 {
+    background-image: url(/img/Rectangle\ 308.png);
+    width: 1224px;
+    height: 253px;
+    border-radius: 25px;
+    border: 2px;
+    margin-top: 10%;
+}
+
+.fotos2 {
+    gap: 80px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.text4 {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* ============================================================sec4============================================== */
+.sec4 {
+    margin-top: 15%;
+    margin-left: 40px;
+}
+
+.h2h2 {
+    color: white;
+    font-size: 36px;
+}
+
+.php {
+    color: rgba(255, 255, 255, 0.55);
+    margin-top: 3%;
+}
+
+.btn3 {
+    margin-top: 3%;
+}
+
+.baton1 {
+    color: white;
+    width: 198px;
+    height: 58px;
+    border-radius: 8px;
+    background-color: #df5e08;
+    padding: 15px 25px 15px 25px;
+}
+
+.el7 {
+    width: 222px;
+    height: 294px;
+    margin-top: -18%;
+    margin-left: 45%;
+    color: white;
+    line-height: 30px;
+}
+
+.vis3 {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.55);
+    margin-left: 75%;
+    margin-top: -18%;
+    display: flex;
+}
+
+.vis7 {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.55);
+    margin-left: 15%;
+    margin-top: 3%;
+    display: flex;
+}
+
+.el8 {
+    background-image: url(/img/kor-Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    width: 268px;
+    height: 254px;
+    margin-top: -120%;
+    margin-left: 160%;
+    padding: 20px 30px 20px 30px;
+    line-height: 30px;
+}
+
+.pen5 {
+    margin-top: 14%;
+    margin-left: -39%;
+    color: rgba(255, 165, 55, 0.55);
+}
+
+.el9 {
+    width: 222px;
+    height: 294px;
+    margin-top: 20%;
+    margin-left: 40%;
+    /* margin-right: 40%; */
+    color: white;
+    line-height: 30px;
+}
+
+.pen6 {
+    margin-top: 20%;
+    margin-left: -43%;
+    color: rgba(255, 165, 55, 0.55);
+}
+
+.el10 {
+    width: 222px;
+    height: 294px;
+    margin-top: 20%;
+    margin-left: -138%;
+    color: white;
+    line-height: 30px;
+}
+
+.pen7 {
+    margin-top: 20%;
+    margin-left: -54%;
+    color: rgba(255, 165, 55, 0.55);
+}
+
+.pen8 {
+    margin-top: 20%;
+    margin-left: -34%;
+    color: rgba(255, 165, 55, 0.55);
+}
+
+/* ==================================================sec5============================================== */
+.vecs {
+    margin-top: 20%;
+    width: 15px;
+    height: 100px;
+}
+
+.david {
+    width: 399px;
+    height: 492px;
+    margin-top: 35px;
+    margin-left: 200px;
+
+}
+
+.namea {
+    width: 265px;
+    height: 91px;
+    margin-top: 32%;
+    margin-left: -20%;
+
+}
+
+.skobochki {
+    margin-top: 5%;
+    width: 113px;
+    height: 312px;
+}
+
+.text5 {
+    color: rgba(255, 255, 255, 0.78);
+    margin-top: 15%;
+    margin-left: -5%;
+    line-height: 30px;
+    width: 596px;
+    height: 80px;
+}
+
+.vecs1 {
+    width: 15px;
+    height: 100px;
+    margin-top: 20%;
+    margin-left: 32px;
+
+}
+
+/* =================================================borders========================================= */
+
+.p12 {
+    width: 44px;
+    height: 6px;
+    margin-top: 80px;
+    margin-left: 45%;
+    border-radius: 4px;
+    background: rgba(40, 48, 54, 1);
+
+}
+
+.p13 {
+    width: 44px;
+    height: 8px;
+    margin-top: -7px;
+    margin-left: 50%;
+    border-radius: 4px;
+    background: rgba(255, 110, 48, 1);
+
+}
+
+.p14 {
+    width: 44px;
+    height: 7px;
+    margin-top: -7.9px;
+    margin-left: 55%;
+    border-radius: 4px;
+    background: rgba(40, 48, 54, 1);
+
+}
+
+/* =================================================sec6============================================ */
+.sec6 {
+    margin-top: 20%;
+}
+
+.h2hg {
+    color: white;
+    font-size: 35px;
+    margin-left: 35%;
+}
+
+.text6 {
+    color: rgba(255, 255, 255, 0.55);
+    margin-left: 36%;
+    margin-top: 1%;
+}
+
+.text7 {
+    width: 430px;
+    padding-left: 10px;
+    color: #df5e08;
+    display: flex;
+    text-decoration: none;
+    background: rgba(40, 48, 54, 1);
+    border: none;
+}
+
+.batn11 {
+    font-family: Poppins;
+    margin-top: 0%;
+    width: 130px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 110, 48, 1);
+    color: white;
+    padding: 12px 46px 12px 36px;
+    margin-left: 10px;
+}
+
+.sec6a {
+    background: rgba(40, 48, 54, 1);
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px 15px 10px 20px;
+    margin-left: 33%;
+    margin-top: 10%;
+
+}
+
+/* ===============================================line======================================== */
+.pal1 {
+    width: 100%;
+    height: 1px;
+    margin-top: 100px;
+    border: 0.5px solid rgba(255, 255, 255, 0.15)
+}
+
+/* ===============================================footer=========================================== */
+.footer1 {
+    margin-top: 5%;
+}
+
+.zag {
+    margin-top: 5%;
+    gap: 20px;
+}
+
+.ant1 {
+    color: white;
+    padding-top: 5px;
+}
+
+.h4hh {
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 10%;
+    font-size: 16px;
+}
+
+.text8 {
+    margin-top: 10%;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.contact1 {
+    margin-top: 8%;
+    margin-left: 25%;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.a1 {
+    color: rgba(255, 255, 255, 0.55);
+    margin-left: 25%;
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.a2 {
+    color: rgba(255, 255, 255, 0.55);
+    margin-left: 25%;
+    display: block;
+    margin-bottom: 10px;
+
+
+}
+
+.a3 {
+    color: rgba(255, 255, 255, 0.55);
+    margin-left: 25%;
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.sec7 {
+    margin-top: 1.3%;
+    margin-left: 15%;
+}
+
+.footsec1 {
+    margin-left: 10%
+}
+
+.footsec2 {
+    margin-left: 15%;
+    margin-top: 1%;
+}
+
+.h3sec {
+    color: white;
+    font-size: 20px;
+}
+
+.a4 {
+    color: rgba(255, 255, 255, 0.55);
+    margin-top: 10%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.a5 {
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.footsec3 {
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.h3h {
+    color: white;
+}
+
+.a6 {
+    color: rgba(255, 255, 255, 0.55);
+    margin-top: 10%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.a7 {
+    color: rgba(255, 255, 255, 0.55);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.a8 {
+    color: rgba(255, 255, 255, 0.55);
+    margin-top: 10%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* =================================================hovers================================================ */
+.col:hover {
+    color: white;
+}
+
+.baton:hover {
+    color: rgb(255, 255, 255);
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.batn1:hover {
+    background-color: white;
+    color: black;
+}
+
+.vis1:hover {
+    color: white;
+}
+
+.vis4:hover {
+    color: white;
+}
+
+.vis5:hover {
+    color: white;
+}
+
+.vis6:hover {
+    color: white;
+}
+
+.btnsos:hover {
+    color: black;
+    background-color: white;
+}
+
+.btn2:hover {
+    color: #ffffff;
+    background-color: #2d353b;
+}
+
+.baton1:hover {
+    color: black;
+    background-color: #ffffff;
+}
+
+.vis7:hover {
+    color: white;
+}
+
+.batn11:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.a1:hover {
+    color: white;
+}
+
+.a2:hover {
+    color: white;
+}
+
+.a3:hover {
+    color: white;
+}
+
+.a4:hover {
+    color: white;
+}
+
+.a5:hover {
+    color: white;
+}
+
+.a6:hover {
+    color: white;
+}
+
+.a7:hover {
+    color: white;
+}
+
+.a8:hover {
+    color: white;
+}
